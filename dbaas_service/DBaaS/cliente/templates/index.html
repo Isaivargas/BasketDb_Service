@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BasketDB-Service</title>
+
+    {% load static %} 
+    <link rel="stylesheet" href="{%static '/landing_page/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="{%static '/landing_page/fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{%static '/landing_page/fonts/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{%static '/landing_page/css/Article-Clean.css'%}">
+    <link rel="stylesheet" href="{%static '/landing_page/css/Article-List.css' %}">
+    <link rel="stylesheet" href="{%static '/landing_page/css/Brands.css' %}">
+    <link rel="stylesheet" href="{%static '/landing_page/css/Features-Blue.css' %}">
+    <link rel="stylesheet" href="{%static '/landing_page/css/Features-Clean.css' %}">
+    <link rel="stylesheet" href="{%static '/landing_page/css/Footer-Basic.css' %}">
+    <link rel="stylesheet" href="{%static '/landing_page/css/Footer-Clean.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="mainNav" >
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="{%static '/landing_page/img/BasketDB%20Service-2.png'%}" style="width: 100px;">BasketDB-Service</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#intro">servicios</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#caracteristicas">características</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contáctanos</a></li>
+                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="{% url 'login' %}">Inicie su experiencia</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead text-center text-white d-flex features-blue  img="/background-image: url('{{ STATIC_URL }}&quot;/landing_page/img/start.jpg&quot;');">
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h1 class="text-uppercase"><strong>El servicio de base de datos nunca antes visto</strong></h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <p class="text-faded mb-5" style="color: rgba(255,255,255,0.7);font-size: 18px;font-family: Allerta, sans-serif;">Nosotros podemos ayudarle a construir un mejor e-commerce hasta una plataforma o servicio.</p><a class="btn btn-secondary btn-xl js-scroll-trigger" role="button" href="#intro" style="background-color: rgba(6,139,214,0.61);">Descubra todo lo que podemos hacer por usted</a></div>
+        </div>
+    </header>
+    <div class="brands"><a id="intro" href="#"> </a></div>
+    <div class="article-clean">
+        <div class="container" id="intro">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="intro"></div>
+                    <div class="text">
+                        <p style="font-family: Allerta, sans-serif;">El servicio de base de datos de Basket Data Base Service facilita la configuración de una base de datos en la nube. Proporciona rentabilidad con un espacio de almacenamiento de tamaño variable al tiempo que automatiza tareas de
+                            administración que requieren mucho tiempo, como el aprovisionamiento de hardware, la configuración de la base de datos, la aplicación de parches y las copias de seguridad. Le permite concentrarse en sus aplicaciones para que
+                            pueda brindarles el rendimiento rápido, la alta disponibilidad, la seguridad y la compatibilidad que necesitan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands">
+        <div class="container">
+            <h2 class="section-heading" style="font-family: Allerta, sans-serif;font-size: 25;width: 250;height: 230;"></h2>
+        </div>
+    </div>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">BasketDB-services database engines</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center" style="width: 300;"></div>
+                <div class="col-md-6 col-lg-3 text-center"><img src="{% static 'landing_page/img/mongologo-580x358.png' %}" style="width: 235px;height: 300;padding-left: 100;"></div>
+                <div class="col-md-6 col-lg-3 text-center" style="width: 300;"><img src="{% static 'landing_page/img/OracleDB-logo.png'%}" style="width: 300px;height: 300;padding-left: 100;"></div>
+                <div class="col">
+                    <div class="mx-auto service-box mt-5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="caracteristicas" class="features-blue" style="font-family: Allerta, sans-serif;height: 800;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Características</h2>
+                <p class="text-center">Conozca nuestra oferta de valor</p>
+            </div>
+            <div class="row features">
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-map-marker icon"></i>
+                    <h3 class="name">Trabaje donde sea</h3>
+                    <p class="description">Trabajar en línea nunca fue más facíl con nuestra API puede trabajar donde sea sin importar si esta en una conexión privada.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-clock-o icon"></i>
+                    <h3 class="name">Siempre disponible</h3>
+                    <p class="description">Sin importar si su equipo de desarrollo se encuentra del otro lado del mundo sus datos siempre estaran disponibles y vigentes gracias al respaldo automatizado.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-list-alt icon"></i>
+                    <h3 class="name">Personalizable</h3>
+                    <p class="description">Control total de los recursos de almacenamiento que utiliza así como periodos de facturación y los accesos de sus desarroladores entre muchas cosas más...</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-leaf icon"></i>
+                    <h3 class="name">Alta escalabilidad</h3>
+                    <p class="description">No hay limite para su desarrollo con nuestra tecnología de ultima generación es posible crecer de manera natural.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-plane icon"></i><i class="fa fa-plane icon"></i>
+                    <h3 class="name">Rapido</h3>
+                    <p class="description">Migraciones de bases datos y solicitudes más rapidas que cualquier otro servicio conocido!.</p>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><i class="fa fa-key icon"></i>
+                    <h3 class="name">Seguro</h3>
+                    <p class="description">Contamos con los más altos estandares de seguridad vigente para proteger lo más valioso de sistema .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">LAS TECNOLOGÍAS QUE NOS RESPALDAN</h2>
+                <p class="text-center">Solo utilizamos las mejores tecnología en el mercado para poder brindarte el mejor servicio.</p>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="{%static 'landing_page/img/1m94cECO0UlZVHZSj9qpliA.png'%}" style="width: 1000;height: 100;"></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="{%static 'landing_page/img/kubernetes-horizontal-color.png'%}"></a>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                            <tbody>
+                                <tr></tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="{%static 'landing_page/img/horizontal-logo-monochromatic-white.png' %}" style="width: 50;height: 5;"></a><a class="action" href="#"></a></div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="footer-clean" style="background-color: #004eab;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading" style="color: rgb(239,241,242);">Contáctanos!</h2>
+                    <hr class="my-4">
+                    <p class="mb-5" style="color: rgb(255,255,255);font-family: Allerta, sans-serif;">Esta listo para empezar su nuevo proyecto con nosotros?! llamenos o mandenos un correo y le responderemos lo más pronto posible :)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center" style="color: rgb(234,237,239);"><i class="fa fa-whatsapp fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
+                    <p style="font-family: Allerta, sans-serif;">55-34-11-24-86</p>
+                </div>
+                <div class="col-lg-4 mr-auto text-center" style="color: rgb(239,241,244);"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
+                    <p><a href="mailto:your-email@your-domain.com" style="color: rgb(235,237,241);">basketdb-service@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-reddit"></i></a><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Inicio</a></li>
+                <li class="list-inline-item"><a href="#">Servicios</a></li>
+                <li class="list-inline-item"><a href="#">Nosotros</a></li>
+                <li class="list-inline-item"><a href="#">Terminos</a></li>
+                <li class="list-inline-item"><a href="#">Aviso de privacidad</a></li>
+            </ul>
+            <p class="copyright">BasketDB-Service © 2019</p>
+        </footer>
+    </div>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="static/js/creative.js"></script>
+</body>
+
+</html>
